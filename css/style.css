@@ -178,3 +178,32 @@
 .call_to_action p {
   margin-bottom: 40px;
 }
+
+/* Portifolio */
+.portifolio {
+  height: 150vh;
+  width: 100%;
+  background: #101010;
+}
+
+.portifolio .subtitle {
+  color: #ffffff;
+}
+
+.portifolio p {
+  color: #ffffff;
+}
+
+.portifolio h2:after {
+  content: "";
+  display: block;
+  background: #ffffff;
+  width: 100px;
+  height: 4px;
+  margin: 20px auto;
+}
+
+.portifolio_item img {
+  height: 400px;
+  padding-bottom: 20px;
+}
